@@ -14,7 +14,7 @@
 </head>
 <body>
     <div id="divBoton">
-        <button onclick="alert('Hola!')">Saludar</button>
+        <button onclick="event.stopPropagation(); alert('Hola!')">Saludar</button>
     </div>
 </body>
 </html>
